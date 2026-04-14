@@ -1,0 +1,48 @@
+.gs-cashback-panel {
+	background: var(--wd-main-bg, #fff);
+	border: 1px solid rgba(0, 0, 0, 0.08);
+	border-radius: 12px;
+	padding: 18px;
+}
+
+.gs-cashback-panel h3,
+.gs-cashback-panel h4 {
+	margin-top: 0;
+}
+
+.gs-cashback-balance {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 12px 14px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	background: rgba(15, 108, 255, 0.08);
+}
+
+.gs-cashback-balance strong {
+	font-size: 1.2rem;
+}
+
+.gs-cashback-muted {
+	opacity: 0.8;
+	font-size: 0.95rem;
+}
+
+.gs-cashback-table td.gs-positive {
+	color: #167b35;
+	font-weight: 600;
+}
+
+.gs-cashback-table td.gs-negative {
+	color: #b42318;
+	font-weight: 600;
+}
+
+.gs-cashback-checkout {
+	margin-bottom: 14px;
+	padding: 12px;
+	border: 1px solid rgba(0, 0, 0, 0.08);
+	border-radius: 10px;
+	background: rgba(15, 108, 255, 0.05);
+}
